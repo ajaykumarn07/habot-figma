@@ -1,0 +1,233 @@
+/* .about__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20rem;
+  margin: 80px 100px;
+  margin-bottom: 0;
+}
+.about__content {
+  display: flex;
+  flex-direction: column;
+}
+.about__content h1 {
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 40px;
+}
+.about__content span {
+  color: rgb(30, 27, 75);
+}
+.about__content p {
+  font-size: 20px;
+  max-width: 550px;
+  color: #000;
+  line-height: 35px;
+}
+.about__signUpBtn {
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: cente;
+}
+
+.about__signUpBtn button {
+  background-color: rgb(22 101 52);
+  color: white;
+  padding: 10px 40px 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  width: 15rem;
+  height: 4rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+.about__signUpBtn button img.arrow {
+  position: absolute;
+  right: 25px;
+  top: 52%;
+  transform: translateY(-50%);
+}
+.about__countries {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  font-size: 22px;
+}
+
+.about__countries p {
+  border: 2px solid orange;
+  padding: 23px;
+  text-align: center;
+  margin: 0;
+  width: 15rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 40px 30px;
+  }
+
+  .about__content {
+    gap: 20px;
+  }
+
+  .about__signUpBtn button {
+    width: 100%;
+  }
+
+  .about__signUpBtn button img.arrow {
+    display: none;
+  }
+} */
+
+.about__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: 80px 100px;
+  margin-bottom: 0;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__content h1 {
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.about__content span {
+  color: rgb(30, 27, 75);
+}
+
+.about__content p {
+  font-size: 20px;
+  max-width: 550px;
+  color: #000;
+  line-height: 35px;
+}
+
+.about__signUpBtn {
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about__signUpBtn button {
+  background-color: rgb(22 101 52);
+  color: white;
+  padding: 10px 40px 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  width: 15rem;
+  height: 4rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about__signUpBtn button img.arrow {
+  position: absolute;
+  right: 25px;
+  top: 52%;
+  transform: translateY(-50%);
+}
+
+.about__countries {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  font-size: 22px;
+}
+
+.about__countries p {
+  border: 2px solid orange;
+  padding: 23px;
+  text-align: center;
+  margin: 0;
+  width: 15rem;
+}
+
+/* Media Query for tablets */
+@media screen and (max-width: 1024px) {
+  .about__container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 40px 30px;
+    gap: 2rem;
+  }
+
+  .about__content h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .about__content p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .about__signUpBtn {
+    width: 100%;
+  }
+
+  .about__signUpBtn button {
+    width: 100%;
+  }
+
+  .about__signUpBtn button img.arrow {
+    display: none;
+  }
+
+  .about__countries {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .about__countries p {
+    width: 100%;
+  }
+}
+
+/* Media Query for mobile devices */
+@media screen and (max-width: 768px) {
+  .about__container {
+    margin: 20px 15px;
+  }
+
+  .about__content h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .about__content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .about__countries {
+    gap: 10px;
+  }
+
+  .about__countries p {
+    font-size: 18px;
+  }
+}
